@@ -1,8 +1,8 @@
 import os
 
-INPUT_DATASET = "/content/drive/My Drive/Breast-Cancer-Detection/input/IDC_regular_ps50_idx5"
+INPUT_DATASET = "datasets/original"
 
-BASE_PATH = "idc/idc"
+BASE_PATH = "datasets/idc"
 TRAIN_PATH = os.path.sep.join([BASE_PATH, "training"])
 VAL_PATH = os.path.sep.join([BASE_PATH, "validation"])
 TEST_PATH = os.path.sep.join([BASE_PATH, "testing"])
